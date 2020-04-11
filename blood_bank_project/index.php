@@ -108,7 +108,7 @@ foreach($results as $result)
 
 
         </div>
-        <!-- /.row -->
+
 
         <!-- Features Section -->
         <div class="row">
