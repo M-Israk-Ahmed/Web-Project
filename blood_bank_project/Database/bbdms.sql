@@ -1,11 +1,3 @@
--- phpMyAdmin SQL Dump
--- version 4.0.10deb1
--- http://www.phpmyadmin.net
---
--- Host: localhost
--- Generation Time: Nov 13, 2017 at 11:26 AM
--- Server version: 5.5.57-0ubuntu0.14.04.1
--- PHP Version: 5.5.9-1ubuntu4.22
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET time_zone = "+00:00";
@@ -39,7 +31,7 @@ CREATE TABLE IF NOT EXISTS `admin` (
 --
 
 INSERT INTO `admin` (`id`, `UserName`, `Password`, `updationDate`) VALUES
-(1, 'admin', '25d55ad283aa400af464c76d713c07ad', '2017-11-13 05:55:57');
+(1, 'admin', '25d55ad283aa400af464c76d713c07ad', '2020-04-10 05:28:38');
 
 -- --------------------------------------------------------
 
@@ -67,7 +59,7 @@ CREATE TABLE IF NOT EXISTS `tblblooddonars` (
 --
 
 INSERT INTO `tblblooddonars` (`id`, `FullName`, `MobileNumber`, `EmailId`, `Gender`, `Age`, `BloodGroup`, `Address`, `Message`, `PostingDate`, `status`) VALUES
-(6, 'Poonam Bansal', '9898989898', 'poonam@mail.com', 'Female', 22, 'O-', 'etret', 'tgergregtrgt ', '2017-11-13 05:03:11', 1);
+(6, 'Israk', '9898989898', 'israk@mail.com', 'male', 22, 'O-', 'etret', 'tgergregtrgt ', '2020-04-10 05:28:38', 1);
 
 -- --------------------------------------------------------
 
@@ -87,13 +79,13 @@ CREATE TABLE IF NOT EXISTS `tblbloodgroup` (
 --
 
 INSERT INTO `tblbloodgroup` (`id`, `BloodGroup`, `PostingDate`) VALUES
-(1, 'A-', '2017-06-30 20:33:50'),
-(2, 'AB-', '2017-06-30 20:34:00'),
-(3, 'O-', '2017-06-30 20:34:05'),
-(4, 'A-', '2017-06-30 20:34:10'),
-(5, 'A+', '2017-06-30 20:34:13'),
-(6, 'AB+', '2017-06-30 20:34:18'),
-(7, 'O+', '2017-11-13 05:06:43');
+(1, 'A-', '2020-04-10 05:28:38'),
+(2, 'AB-', '2020-04-10 05:28:38'),
+(3, 'O-', '2020-04-10 05:28:38'),
+(4, 'A-', '2020-04-10 05:28:38'),
+(5, 'A+', '2020-04-10 05:28:38'),
+(6, 'AB+', '2020-04-10 05:28:38'),
+(7, 'O+', '2020-04-10 05:28:38');
 
 -- --------------------------------------------------------
 
@@ -114,7 +106,7 @@ CREATE TABLE IF NOT EXISTS `tblcontactusinfo` (
 --
 
 INSERT INTO `tblcontactusinfo` (`id`, `Address`, `EmailId`, `ContactNo`) VALUES
-(1, 'Jaipur																							', 'test@mail.com', '9898989898');
+(1, 'Dhaka', 'test@mail.com', '9898989898');
 
 -- --------------------------------------------------------
 
@@ -138,7 +130,7 @@ CREATE TABLE IF NOT EXISTS `tblcontactusquery` (
 --
 
 INSERT INTO `tblcontactusquery` (`id`, `name`, `EmailId`, `ContactNumber`, `Message`, `PostingDate`, `status`) VALUES
-(5, 'Manvendra', 'abc@mail.com', '7878787878', 'wjfhwfjfb', '2017-11-13 05:28:38', NULL);
+(5, 'Mamun', 'abc@mail.com', '7878787878', 'wjfhwfjfb', '2020-04-10 05:28:38', NULL);
 
 -- --------------------------------------------------------
 
